@@ -1,0 +1,8 @@
+private int mul(int a, int b)
+{
+	if (a*b > Integer.Max)
+	{
+		throw new RuntimeException("Result is over ...);
+	}
+	return a*b;
+}
