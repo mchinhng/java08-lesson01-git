@@ -1,6 +1,13 @@
 private int div(int a, int b) {
 	if (b == 0) {
-		throw new ArithmeticException();
+		throw new ArithmeticException("/byzero");
 	}
 	return a / b;
+}
+
+private int mod(int a, int b) {
+	if (b == 0) {
+		throw new ArithmeticException("/byzero");
+	}
+	return a % b;
 }
